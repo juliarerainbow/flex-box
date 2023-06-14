@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+.main-box{
+    border:1px solid red;
+    height: 100%;  
+
+    /* default in orizzontale */
+    display: flex;
+    /* modifica la direzione di flex */
+    /* flex-direction: row; */
+}
+.column-box{
+    border:3px solid blue;
+    
+    /* flex-grow: 1; */
+}
+
+.small{
+    flex-grow: 1;
+}
+
+.big{
+    flex-grow: 2;
+}
+
+.box{
+    border:3px solid green;
+
+}
